@@ -426,6 +426,29 @@
     "repo": "https://github.com/purescript/purescript-exists.git",
     "version": "v4.0.0"
   },
+  "data-default": {
+    "dependencies": [],
+    "repo": "https://github.com/nkly/purescript-data-default.git",
+    "version": "0.1.0"
+  },
+  "express": {
+    "dependencies": [
+      "effect",
+      "prelude",
+      "maybe",
+      "strings",
+      "node-http",
+      "data-default",
+      "foreign",
+      "foreign-generic",
+      "foreign-object",
+      "test-unit",
+      "functions",
+      "aff"
+    ],
+    "repo": "https://github.com/nkly/purescript-express.git",
+    "version": "v0.7.0"
+  },
   "filterable": {
     "dependencies": [
       "arrays",
